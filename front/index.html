@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat in real time 🍃</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/vls5jlu.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.png" />
+  </head>
+  <body>
+    <div class="full-height">
+      <header><h1>Chat in real time&nbsp;🍃</h1></header>
+      <main>
+        <div class="top-space"></div>
+      </main>
+    </div>
+    <form id="new-message">
+      <div>
+        <label for="pseudo">Pseudo&nbsp;👨‍💻</label>
+        <input
+          id="pseudo"
+          name="pseudo"
+          placeholder="Ayman"
+          autocomplete="off"
+        />
+      </div>
+      <div>
+        <label for="body">Content&nbsp;📨</label>
+        <input
+          id="body"
+          name="body"
+          placeholder="Hey what's up?"
+          autocomplete="false"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+    <script src="./scripts/main.js" type="module"></script>
+  </body>
+</html>
